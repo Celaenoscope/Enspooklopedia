@@ -1,0 +1,158 @@
+<!-- I have my text size at this size for optimal web viewing while maintaining artistic vision -->
+<style>main {}
+
+header {
+  background-color: rgba(0, 0, 0,.4);
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.25);
+  font-size: 35px;
+  color: white;
+  margin: 50px 300px 100px 300px;
+}
+body {
+  background-image: url('https://p0.pxfuel.com/preview/726/566/441/nature-landscape-forest-trees.jpg');
+  font-family: Courier-new;
+  color: white;
+  text-align: center;
+  border: solid black 4px;
+  height: 1200px;
+}
+.vertical-menu {
+  width: 170px;
+   float:left;
+   padding: 0px 0px 0px 69px;
+}
+.vertical-menu a {
+  background-color: rgba(0,0,0,.4);
+  border-style:solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.25);
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color:rgba(0,30,0,.75);
+}
+
+.vertical-menu a.active {
+  background-color: rgba(30,30,30,.75);
+  color: white;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 500px; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgba(0,60,0,1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgba(0,75,0,1);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+/*   border-radius: 5px; */
+  background-color: rgba(0, 0, 0,.66);
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.25);
+  padding: 20px;
+  width:500px;
+  height:450px;
+}
+#contactmenu {
+  display: flex;
+  align-items:center;
+  position:relative;
+  padding-left:425px;
+/*   top:200px; */
+}
+footer {
+  top:10px;
+  width: 100%;
+  position:relative;
+  background-color:rgba(0,0,0,0);
+  color: white;
+  text-align: center;
+/*   display:flex;
+justify-content:center;
+  align-items:baseline; */
+  top:610px;
+  right:335px;
+}
+</style>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multipage website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body> 
+<main>
+  <header>
+    <h1>Contact</h1>
+  </header>
+   <div class="vertical-menu">
+
+   <a href="https://codepen.io/celaenoscope/full/oNevMYX" alt="The home page of the website.">Home</a>
+    <a href="https://codepen.io/celaenoscope/full/eYENKxg" alt="A page about the creator of the website.">About Me</a>
+    <a href="https://codepen.io/celaenoscope/full/KKvwjmv" "A content page with information about serialized podcasts.">Serial Podcasts</a>
+    <a href="https://codepen.io/celaenoscope/full/QWMbwMV" alt="A content page with information about anthological podcasts.">Anthology Podcasts</a>
+    <a href="https://codepen.io/celaenoscope/full/VwzLqba" alt="A page with a form to contant the webside creator.">Contact</a>
+</div>
+  <div id="contactmenu">
+  <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+<!--     <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select> -->
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    </div>
+   <div>  <footer>
+    <p>&copyCelaenoscope 2021</p>
+  </footer>
+    </div>
+
+  </form>
+</div>
+  </body>
+    </main>
