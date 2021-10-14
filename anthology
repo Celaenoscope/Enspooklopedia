@@ -151,11 +151,11 @@ justify-content:center;
   </header>
      <div class="vertical-menu">
 
-    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/2c1396f683c79c57a16785cd841f2b4c95fe5db7/Home%20Page" alt="The home page of the website.">Home</a>
-    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/2ba31108733da31dc58acab416a1f4aefc74bc2b/aboutme" alt="A page about the creator of the website.">About Me</a>
-    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/4262a5ddffbeb602ca090ddefb63cb705dda6fd9/serial" "A content page with information about serialized podcasts.">Serial Podcasts</a>
-    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/6abeab4ef5b6a634f31fd98a355861c63dd914ee/anthology" alt="A content page with information about anthological podcasts.">Anthology Podcasts</a>
-    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/6a138d8f5bfb330f43c8893c09929bbb55340fcf/contact" alt="A page with a form to contant the webside creator.">Contact</a>
+    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/57a65d51761a70e81b78947e7c760c22766048e2/Home%20Page" alt="The home page of the website.">Home</a>
+    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/42f88d392d85b24a4602f218e6c5c985a08c5f4c/aboutme" alt="A page about the creator of the website.">About Me</a>
+    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/b02b673b974f2cdee1bb209e0db61fed566cee9f/serial" "A content page with information about serialized podcasts.">Serial Podcasts</a>
+    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/e701b2494393e423abd8f8468585db4a182eb281/anthology" alt="A content page with information about anthological podcasts.">Anthology Podcasts</a>
+    <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/40339e5b2da8f98cd8ee9b9e5990d0f2ab95e60a/contact" alt="A page with a form to contant the webside creator.">Contact</a>
 </div>
   
   <div class="container">
