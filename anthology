@@ -1,0 +1,188 @@
+<!-- I have my text size at this size for optimal web viewing while maintaining artistic vision -->
+<style>main {}
+
+header {
+  background-color: rgba(0, 0, 0,.4);
+  text-align: center;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.25);
+  font-size: 35px;
+  color: white;
+  margin: 50px 300px 100px 300px;
+}
+body {
+  background-image: url('https://p0.pxfuel.com/preview/726/566/441/nature-landscape-forest-trees.jpg');
+  font-family: Courier-new;
+  color: white;
+  text-align: center;
+  border: solid black 4px;
+  height: 1220px;
+}
+.vertical-menu {
+  width: 170px;
+   float:left;
+   padding: 0px 0px 0px 69px;
+}
+.vertical-menu a {
+  background-color: rgba(0,0,0,.4);
+  border-style:solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,.25);
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color:rgba(0,30,0,.75);
+}
+
+.vertical-menu a.active {
+  background-color: rgba(30,30,30,.75);
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.1fr 1fr 0.1fr 1fr 1.2fr;
+  grid-template-rows: 0.2fr 1.4fr 0.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". podpic1 . podpic2 . podpic3 ."
+    ". poddisc1 . poddisc2 . poddisc3 ."
+    ". . . logo . . .";
+}
+
+.podpic1 { 
+  grid-area: podpic1;
+
+}
+
+.podpic2 { grid-area: podpic2;
+
+}
+
+.podpic3 { grid-area: podpic3;
+}
+
+.poddisc1 { grid-area: poddisc1; }
+
+.poddisc2 { grid-area: poddisc2; }
+
+.poddisc3 { grid-area: poddisc3; }
+
+.space { grid-area: space; }
+.space1 { grid-area: space1; }
+.space2 { grid-area: space2; }
+.space3 { grid-area: space3; }
+
+#podpicbox
+{
+  background-color:rgba(0,0,0,.66);
+  height: 200px;
+  position:relative;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#podpicbox2 {
+  background-color:rgba(0,0,0,.66);
+  height: 200px;
+  position:relative;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#podpicbox3 {
+  background-color:rgba(0,0,0,.66);
+  height: 200px;
+  position:relative;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+#poddiscbox {
+  background-color:rgba(0,0,0,.66);
+  height:245px;
+  text-align:left;
+  padding-left:10px;
+  padding-right:10px;
+}
+#poddiscbox2 {
+  background-color:rgba(0,0,0,.66);
+  height: 375px;
+  text-align:left;
+  padding-left:10px;
+  padding-right10px;
+}
+#poddiscbox3 {
+  background-color:rgba(0,0,0,.66);
+  height: 285px;
+  text-align:left;
+  padding-left:10px;
+  padding-right:10px;
+
+} 
+footer {
+  top:110px;
+  width: 100%;
+  position:relative;
+  background-color:rgba(0,0,0, 0);
+  color: white;
+  text-align: center;
+  display:flex;
+justify-content:center;
+  align-items:flex-end;
+}
+</style>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multipage website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body> 
+<main>
+  <header>
+    <h1>Anthology Podcasts</h1>
+  </header>
+   <div class="vertical-menu">
+
+    <a href="https://codepen.io/celaenoscope/full/oNevMYX" alt="The home page of the website.">Home</a>
+    <a href="https://codepen.io/celaenoscope/full/eYENKxg" alt="A page about the creator of the website.">About Me</a>
+    <a href="https://codepen.io/celaenoscope/full/KKvwjmv" "A content page with information about serialized podcasts.">Serial Podcasts</a>
+    <a href="https://codepen.io/celaenoscope/full/QWMbwMV" alt="A content page with information about anthological podcasts.">Anthology Podcasts</a>
+    <a href="https://codepen.io/celaenoscope/full/VwzLqba" alt="A page with a form to contant the webside creator.">Contact</a>
+</div>
+  
+  <div class="container">
+  <div id="podpicbox" class="podpic1">
+    <img src="http://assets.libsyn.com/content/2788730?height=250&width=250" alt="An icon with a small, rat-like creature looking at the viewer. The image is in sepiatone and the words 'Knifepoint Horror' below it." width="200px" height="200px">
+    
+  </div>
+  <div id="podpicbox2" class="podpic2"><img src="https://www.thenosleeppodcast.com/wp-content/uploads/2014/09/NoSleep.Podcast.S4.Logo_1400.jpg" alt="An icon with the words 'The No Sleep Podcast' with white letters in a computer-glitch style set over a background of black trees and a night skye which transitions to purple at the bottom left corner of the image." width="200px" height="200px"></div>
+  <div id="podpicbox3" class="podpic3"><img src="https://megaphone.imgix.net/podcasts/dcc703f2-26bf-11ec-9d0d-936996121764/image/_lore-cover-gm.png?ixlib=rails-2.1.2&w=400&h=400" alt="An icon with the word 'Lore' set over a gray background of trees." width="200px" height="200">
+                             </div>
+  <div id="poddiscbox" class="poddisc1">
+    <h3>Knifepoint Horror is well-known within the genre for quality, creepy content. Each episode is narrated by a small cast, usually only one actor, but they occasionally branch out to a 4-6 person performance. Well-crafted, but the background ambiance can sometimes be overpowering.</h3><h3>Production Status: Ongoing.</h3>
+  </div>
+  <div id="poddiscbox2" class="poddisc2">
+    <h3>Initially started as a Reddit forum back in 2010, The NoSleep Podcast has grown into a thriving, submission-based horror podcast. The show often features a few shorter stories within each episode, making it ideal for people with short breaks or attention spans. In addition to hosting authors who have gone on to publish their work, the podcast has also featured some celebrity guests such as Kate Siegel (The Haunting of Hill House, Midnight Mass) and Elijah Wood (The Lord of the Rings series, Happy Feet).</h3><h3>Production Status: Ongoing.</h3>
+  </div>
+  <div id="poddiscbox3" class="poddisc3">
+    <h3>Lore is a non-fiction podcast that examines history and human behavior through the lens of folklore and fairytales; Lore has been a critical darling since its premiere in 2015 and has spawned not only a series of books but also an Amazon TV series which ran for two seasons; creator Aaron Mahnke hosts every episode of the podcast and the show.</h3><h3>Production Status: Ongoing.<h3>
+  </div>
+  <div class="space"></div>
+    <div class="space1"></div>
+    <div class="space2"></div>
+    <div class="space3"></div>
+    
+</div>
+   <footer>
+    <p>&copyCelaenoscope 2021</p>
+  </footer>
+  </main>
+    </body>
