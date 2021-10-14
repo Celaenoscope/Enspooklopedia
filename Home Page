@@ -1,4 +1,5 @@
-<!-- I have my text size at this size for optimal web viewing while maintaining artistic vision -->
+
+  <!-- I have my text size at this size for optimal web viewing while maintaining artistic vision -->
 <style>
   
 
@@ -88,7 +89,7 @@ footer {
       <header>
         <h1>Enspooklopedia</h1>
       </header>
-    <div class="vertical-menu">
+     <div class="vertical-menu">
 
     <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/57a65d51761a70e81b78947e7c760c22766048e2/Home%20Page" alt="The home page of the website.">Home</a>
     <a href="https://htmlpreview.github.io/?https://github.com/Celaenoscope/Enspooklopedia/blob/42f88d392d85b24a4602f218e6c5c985a08c5f4c/aboutme" alt="A page about the creator of the website.">About Me</a>
